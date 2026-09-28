@@ -4,9 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     # - cron:  '00 14 * * *' # 默认在每天 UTC 14:00 （北京时间 22:00）执行
-
-jobs:
-  User01:
+obs:
+  3er01:
     runs-on: ubuntu-latest
     environment: CONFIG_01
     steps:
